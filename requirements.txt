@@ -5,8 +5,7 @@ hachoir
 html_telegraph_poster
 pymongo[srv]
 psutil
-pyrogram==2.0.106
-pyromod
+pyrofork
 python-dotenv
 tgcrypto
 ffmpeg
