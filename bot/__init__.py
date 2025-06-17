@@ -24,7 +24,7 @@ class Config(object):
     BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))
     DATABASE_URL = str(os.environ.get("DATABASE_URL"))
     USERNAME = str(os.environ.get("BOT_USERNAME"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
+    LOG_CHANNEL = int(os.environ.get("-1002173308278"))
     AUTH_USERS = list(
         set(
             int(x)
