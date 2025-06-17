@@ -7,7 +7,6 @@ import pymongo
 from dotenv import load_dotenv
 from pymongo import MongoClient
 from pyrogram import Client
-from pyromod import listen
 
 if os.path.exists("config.env"):
     load_dotenv("config.env")
